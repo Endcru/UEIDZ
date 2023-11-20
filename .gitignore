@@ -17,6 +17,7 @@
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
 !/Content/**/*.uasset
+!/Content/ThirdPerson/Input/Actions/*.uasset
 !/Content/**/*.umap
 
 !/Content/Data/DataVar.csv
