@@ -13,15 +13,13 @@
 !/Config/**
 !/Plugins/**
 
-!/Content/Data/DataVar.csv
-!/Content/
-!/Content/**/*.umap
-
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
 !/Content/**/*.uasset
 !/Content/**/*.umap
+
+!/Content/Data/DataVar.csv
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
@@ -53,4 +51,3 @@ Session.vim
 
 # Visual Studio
 .vs
-
